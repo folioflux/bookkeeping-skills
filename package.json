@@ -1,0 +1,56 @@
+{
+  "name": "@folioflux/bookkeeping-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generic agent skills (SKILL.md) for basic bookkeeping literacy: reading a bank CSV, citing source rows, reconciling two totals and explaining a cash-flow summary.",
+  "keywords": [
+    "agent-skills",
+    "skill-md",
+    "bookkeeping",
+    "csv",
+    "reconciliation",
+    "ai-agents"
+  ],
+  "homepage": "https://github.com/folioflux/bookkeeping-skills#readme",
+  "bugs": {
+    "url": "https://github.com/folioflux/bookkeeping-skills/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folioflux/bookkeeping-skills.git"
+  },
+  "license": "MIT",
+  "author": "FolioFlux",
+  "type": "module",
+  "bin": {
+    "validate-skills": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate": "node src/cli.ts",
+    "check": "pnpm run lint && pnpm run format:check && pnpm run typecheck && pnpm run test && pnpm run validate && pnpm run build"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@10.34.8",
+  "dependencies": {
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.19.2",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.0",
+    "vitest": "^5.0.5"
+  }
+}

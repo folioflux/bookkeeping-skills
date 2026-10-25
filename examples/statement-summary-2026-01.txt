@@ -1,0 +1,7 @@
+Synthetic statement summary (not real data)
+Account: Example business account
+Period: 2026-01-01 to 2026-01-27
+Opening balance: 2,000.00
+Money in: 4,250.00
+Money out: 1,086.29
+Closing balance: 5,163.71
