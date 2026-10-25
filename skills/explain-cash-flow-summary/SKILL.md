@@ -17,7 +17,7 @@ Turn a period's figures into a short, plain explanation the user can check. The 
 - Read-only: never change the user's files.
 - Cite source rows for every figure. See the `cite-source-rows` skill for the format.
 - Describe the past only. Do not forecast, project, budget or recommend actions, and do not label or judge transactions.
-- Not financial, tax, accounting or legal advice.
+- Not financial, tax or legal advice.
 
 ## Inputs
 
@@ -87,4 +87,4 @@ More money came in than went out in this period, so the balance rose by 3,151.21
 
 ## Disclaimer
 
-Not financial, tax, accounting or legal advice.
+Not financial, tax or legal advice.

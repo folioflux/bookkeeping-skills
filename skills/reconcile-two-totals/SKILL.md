@@ -17,7 +17,7 @@ Two totals that should be equal often are not: one source covers a different per
 - Read-only: never edit the source files or "adjust" a figure to force a match.
 - Cite source rows for every figure, candidate and conclusion. See the `cite-source-rows` skill for the format.
 - Report what the data shows. Do not guess at causes the rows do not support, and do not call anything an error or fraud.
-- Not financial, tax, accounting or legal advice.
+- Not financial, tax or legal advice.
 
 ## Inputs
 
@@ -89,4 +89,4 @@ Next step: compare against the next statement, which should include row 7.
 
 ## Disclaimer
 
-Not financial, tax, accounting or legal advice.
+Not financial, tax or legal advice.

@@ -12,7 +12,7 @@ This repository is deliberately small: a few simple, generic, stateless skills f
 - Frontmatter: `name`, `description` (what the skill does and when to use it), `license: MIT`, and `metadata` with `author` and `version`.
 - The body must include, word for word:
   - "The engine does the math; the AI only explains it."
-  - "Not financial, tax, accounting or legal advice."
+  - "Not financial, tax or legal advice."
 - Every figure the agent states must cite its source rows.
 - Skills are read-only and never ask the agent to modify the user's files.
 - No transaction labelling or rules, forecasts, tax guidance or advice.
@@ -57,6 +57,6 @@ pnpm run check
 
 Pull requests are squash-merged once CI passes and a maintainer has reviewed them.
 
-## Licence
+## License
 
 By contributing, you agree that your contributions are licensed under the [MIT License](LICENSE).

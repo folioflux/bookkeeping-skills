@@ -17,7 +17,7 @@ Before answering any question about a bank export, work out how the file is laid
 - Read-only: open the file for reading only. Never edit, re-save, sort or "clean" the user's file. Work on a copy if a tool needs one.
 - Cite source rows (file and row number) for every count, date and amount you report. See the `cite-source-rows` skill for the format.
 - Stay generic: describe the file. Do not label, group or judge the transactions in this skill.
-- Not financial, tax, accounting or legal advice.
+- Not financial, tax or legal advice.
 
 ## Steps
 
@@ -84,4 +84,4 @@ Assumptions: none. The balance on row 3 (3550.00) is the balance on row 2 (4500.
 
 ## Disclaimer
 
-Not financial, tax, accounting or legal advice.
+Not financial, tax or legal advice.
