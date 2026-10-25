@@ -5,7 +5,7 @@ import { parse } from 'yaml';
 /** Phrases every skill body must contain, word for word. */
 export const REQUIRED_PHRASES = [
   'The engine does the math; the AI only explains it.',
-  'Not financial, tax, accounting or legal advice.',
+  'Not financial, tax or legal advice.',
 ] as const;
 
 /** Frontmatter fields allowed by the Agent Skills specification (https://agentskills.io). */

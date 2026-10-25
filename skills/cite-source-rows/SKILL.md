@@ -16,7 +16,7 @@ Every number you state about someone's money must point back to the rows it came
 - The engine does the math; the AI only explains it. Totals, counts and differences come from a deterministic tool (for example the read-only tools of an MCP server such as ledger-mcp, a script you run, or a spreadsheet formula), never from adding numbers in your head.
 - Read-only: never change, re-save or reformat the user's files.
 - Cite source rows for every figure. If you cannot cite a number, do not state it.
-- Not financial, tax, accounting or legal advice.
+- Not financial, tax or legal advice.
 
 ## What a row number means
 
@@ -77,4 +77,4 @@ Not acceptable:
 
 ## Disclaimer
 
-Not financial, tax, accounting or legal advice.
+Not financial, tax or legal advice.

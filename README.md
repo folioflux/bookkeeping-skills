@@ -1,5 +1,8 @@
 # bookkeeping-skills
 
+[![CI](https://github.com/folioflux/bookkeeping-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/folioflux/bookkeeping-skills/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Small, generic agent skills for basic bookkeeping literacy: reading a bank CSV, citing the source rows behind every number, reconciling two totals and explaining a cash-flow summary.
 
 > **Status:** early (v0.1.0). The skills may change before 1.0.
@@ -12,7 +15,7 @@ A handful of [Agent Skills](https://agentskills.io) (folders with a `SKILL.md` f
 - **Every number cites its source rows,** for example `[january.csv: rows 2, 5]`, so the user can check it.
 - **Read-only.** The agent never edits the user's files.
 - **Generic and stateless.** The skills describe and explain data. They do not label transactions, forecast, or give advice.
-- **Not financial, tax, accounting or legal advice.**
+- **Not financial, tax or legal advice.**
 
 ## Skills
 
@@ -74,7 +77,7 @@ Unexplained: none
 
 - `SKILL.md` exists and starts with valid YAML frontmatter,
 - the frontmatter follows the [Agent Skills specification](https://agentskills.io/specification): `name` (lowercase, hyphens, at most 64 characters, matching the folder), `description` (at most 1024 characters), and only the optional fields `license`, `compatibility`, `metadata` and `allowed-tools`,
-- the body includes "The engine does the math; the AI only explains it." and "Not financial, tax, accounting or legal advice.", and asks for source-row citations,
+- the body includes "The engine does the math; the AI only explains it." and "Not financial, tax or legal advice.", and asks for source-row citations,
 - relative links stay inside the skill and point to files that exist,
 - this README links to every skill.
 
@@ -93,20 +96,16 @@ CI runs the validator, lint, typecheck, tests and build on every pull request.
 - The examples assume a simple CSV layout. Real bank exports vary; the `read-bank-csv` skill asks the agent to state its assumptions.
 - Use synthetic or your own data only, and review what your agent client sends to its model provider.
 
-## About
-
-Built by the FolioFlux team. FolioFlux is the AI finance workspace for freelancers, small teams and their accountants: https://folioflux.com
-
-Questions: hello@folioflux.com. Security reports: see [SECURITY.md](SECURITY.md).
-
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
+Bug reports and focused pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md). Please report security problems privately, as described in [SECURITY.md](SECURITY.md).
 
-## Disclaimer
-
-Not financial, tax, accounting or legal advice.
-
-## Licence
+## License
 
 Released under the [MIT License](LICENSE).
+
+## About
+
+Made by [FolioFlux](https://folioflux.com). Questions: [hello@folioflux.com](mailto:hello@folioflux.com). Security reports: [security@folioflux.com](mailto:security@folioflux.com).
+
+Not financial, tax or legal advice.
