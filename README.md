@@ -50,6 +50,11 @@ Each skill's `SKILL.md` contains a worked example with the expected shape of the
 
 ## Examples
 
+For a runnable, demo-only example using invented workshop events, see
+[Workshop dates](examples/workshop-dates.md). It preserves source line numbers and
+returns `needs-format` for an ambiguous date instead of guessing. It is not a
+general CSV parser and needs no runtime dependencies beyond Node.js.
+
 A cash-flow explanation in the format defined by `explain-cash-flow-summary`:
 
 ```text
